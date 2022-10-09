@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10em;
+}
+
+.header .right-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.header .right-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.header .title {
+    font-size: 24px;
+}
+
+.topbar {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 10em;
+    flex: 1;
+}
+
+.topbar .title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.topbar .text {
+    font-size: 24px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.topbar img {
+    width: 70%;
+    height: 10em;
+    margin-left: 60px;
+}
+
+.topbar button {
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 6px;
+    color: #F9FAF8;
+    padding: 4px 20px;
+}
+
+.secondbar {
+    flex: 1;    
+    margin: 16px auto;
+}
+
+.secondbar .title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 10px;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    gap: 0 30px;
+}
+
+.info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondbar img {
+    width: 50%;
+    height: 10em;
+}   
+
+.thirdbar {
+    background-color: #e5e7eb;
+    padding: 4em 12em;
+    flex: 1;
+    align-items: center;
+}
+
+.quote .testimonial{
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .author{
+    text-align: right;
+    font-weight: bold;
+}
+
+.fourthbar {
+    flex: 1;
+}
+
+.fourthbar .banner {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    padding: 1em;
+}
+
+.fourthbar .left {
+    margin: 0 10em;
+}
+
+.fourthbar .title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fourthbar .text {
+    color: #F9FAF8;
+    font-size: 18px; 
+}
+
+.fourthbar button {
+    background-color: #3882f6;
+    border-color: #F9FAF8;
+    border-radius: 6px;
+    color: #F9FAF8;
+    padding: 6px 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
